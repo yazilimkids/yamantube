@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abone Ol</title>
+    <link rel="stylesheet" href="abone.css">
+</head>
+<body>
+    <div class="subscribe-container">
+        <form class="subscribe-form">
+            <h1>Abone Ol</h1>
+            <label for="name">Adınız Soyadınız:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="card-number">Kredi Kartı Numarası:</label>
+            <input type="text" id="card-number" name="card-number" required>
+            
+            <label for="expiry-date">Son Kullanma Tarihi:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+            
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <label for="subscription-fee">Abonelik Ücreti (TL):</label>
+            <input type="number" id="subscription-fee" name="subscription-fee" value="20" min="0" required>
+            
+            <button type="submit">Abone Ol</button>
+        </form>
+    </div>
+</body>
+</html>
